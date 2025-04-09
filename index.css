@@ -1,6 +1,30 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --gray-950: hsl(0, 0%, 7%);
+    --gray-500: hsl(0, 0%, 42%);
+    --white: hsl(0, 0%, 100%);
+    
+    --sapce-200: 16px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --sapce-50: 4px;
+
+    --radius-lg: 20px;
+    --radius-sm: 10px;
+
+    --family-sans: "Figtree", sans-serif;
+}
+
 html {
     background-color: hsl(47, 88%, 63%);
 }
+
+body {
+    font-family: var(--family-sans);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 
 .card {
     background-color: hsl(0, 0%, 100%);
@@ -14,7 +38,7 @@ html {
     position: relative;
     width: 384px;
     height: 522px;
-    margin: 5% auto;
+    margin: 4% auto;
     text-align: center; 
 }
 
@@ -26,8 +50,9 @@ html {
 }
 
 .card > footer {
-    justify-self: left;
+    text-align: left;
     padding-top: 60px;
+    padding-left: 40px;
 }
 
 .category {
@@ -41,3 +66,5 @@ html {
     padding-top: 20px;
     border-radius: 20px;
 }
+
+
