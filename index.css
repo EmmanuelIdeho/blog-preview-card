@@ -7,10 +7,11 @@
     --space-200: 16px;
     --space-150: 12px;
     --space-100: 8px;
-    --sapce-50: 4px;
+    --space-50: 4px;
 
     --radius-lg: 20px;
     --radius-sm: 10px;
+    --radius-xs: 4px;
 
     --family-sans: "Figtree", sans-serif;
 
@@ -20,6 +21,8 @@
     --text-preset-3-bold: 14px;
 
     --line-preset: 1.5;
+
+    --max-width: 384px;
 }
 
 * {
@@ -28,16 +31,52 @@
     padding: 0;
 }
 
-html {
-    background-color: var(--yellow);
-}
-
 body {
+    background-color: var(--yellow);
+    color: var(--gray-500);
     font-family: var(--family-sans);
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-size: var(--text-preset-2);
+    line-height: var(--line-preset);
   }
+
+h2 {
+    color: var(--gray-950);
+    font-size: var(--text-preset-1);
+    font-weight: 800;
+  }
+
+time {
+    color: var(--gray-950);
+    font-size: var(--text-preset-3);
+    display: block;
+  }
+
+  img, picture {
+    display: block;
+    max-width: 100%;
+  }
+
+.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-150);
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .flow > * + * {
+    margin-block-start: var(--flow-space, var(--space-200));
+  }
+.challenge-wrapper {
+    --max-child-width: var(--max-width, 320px);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: var(--space-200) max(var(--space-200), calc(50% - var(--max-child-width) / 2));
+}
 
 .card {
 
