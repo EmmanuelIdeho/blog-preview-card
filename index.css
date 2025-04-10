@@ -4,7 +4,7 @@
     --gray-500: hsl(0, 0%, 42%);
     --white: hsl(0, 0%, 100%);
     
-    --sapce-200: 16px;
+    --space-200: 16px;
     --space-150: 12px;
     --space-100: 8px;
     --sapce-50: 4px;
@@ -13,6 +13,13 @@
     --radius-sm: 10px;
 
     --family-sans: "Figtree", sans-serif;
+
+    --text-preset-1: 24px;
+    --text-preset-2: 16px;
+    --text-preset-3: 14px;
+    --text-preset-3-bold: 14px;
+
+    --line-preset: 1.5;
 }
 
 html {
