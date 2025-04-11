@@ -43,7 +43,7 @@ body {
     line-height: var(--line-preset);
   }
 
-h2 {
+h1 {
     color: var(--gray-950);
     font-size: var(--text-preset-1);
     font-weight: 800;
