@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/EmmanuelIdeho/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://bucolic-kangaroo-92c3e3.netlify.app/)
+- Solution URL: [https://github.com/EmmanuelIdeho/blog-preview-card](https://github.com/EmmanuelIdeho/blog-preview-card)
+- Live Site URL: [https://bucolic-kangaroo-92c3e3.netlify.app/](https://bucolic-kangaroo-92c3e3.netlify.app/)
 
 ## My process
 
